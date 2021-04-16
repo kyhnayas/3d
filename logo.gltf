@@ -19,150 +19,23 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "Curve",
-            "rotation" : [
-                0,
-                -0.5,
-                0,
-                0.8660253882408142
-            ]
+            "name" : "Curve"
         },
         {
             "mesh" : 1,
-            "name" : "Curve.001",
-            "rotation" : [
-                0,
-                -0.5,
-                0,
-                0.8660253882408142
-            ]
+            "name" : "Curve.001"
         },
         {
             "mesh" : 2,
-            "name" : "Curve.002",
-            "rotation" : [
-                0,
-                -0.5,
-                0,
-                0.8660253882408142
-            ]
+            "name" : "Curve.002"
         },
         {
             "mesh" : 3,
-            "name" : "Curve.003",
-            "rotation" : [
-                0,
-                -0.5,
-                0,
-                0.8660253882408142
-            ]
+            "name" : "Curve.003"
         },
         {
             "mesh" : 4,
-            "name" : "Curve.004",
-            "rotation" : [
-                0,
-                -0.5,
-                0,
-                0.8660253882408142
-            ]
-        }
-    ],
-    "animations" : [
-        {
-            "channels" : [
-                {
-                    "sampler" : 0,
-                    "target" : {
-                        "node" : 0,
-                        "path" : "rotation"
-                    }
-                }
-            ],
-            "name" : "CurveAction",
-            "samplers" : [
-                {
-                    "input" : 20,
-                    "interpolation" : "LINEAR",
-                    "output" : 21
-                }
-            ]
-        },
-        {
-            "channels" : [
-                {
-                    "sampler" : 0,
-                    "target" : {
-                        "node" : 1,
-                        "path" : "rotation"
-                    }
-                }
-            ],
-            "name" : "CurveAction",
-            "samplers" : [
-                {
-                    "input" : 20,
-                    "interpolation" : "LINEAR",
-                    "output" : 21
-                }
-            ]
-        },
-        {
-            "channels" : [
-                {
-                    "sampler" : 0,
-                    "target" : {
-                        "node" : 2,
-                        "path" : "rotation"
-                    }
-                }
-            ],
-            "name" : "CurveAction",
-            "samplers" : [
-                {
-                    "input" : 20,
-                    "interpolation" : "LINEAR",
-                    "output" : 21
-                }
-            ]
-        },
-        {
-            "channels" : [
-                {
-                    "sampler" : 0,
-                    "target" : {
-                        "node" : 3,
-                        "path" : "rotation"
-                    }
-                }
-            ],
-            "name" : "CurveAction",
-            "samplers" : [
-                {
-                    "input" : 20,
-                    "interpolation" : "LINEAR",
-                    "output" : 21
-                }
-            ]
-        },
-        {
-            "channels" : [
-                {
-                    "sampler" : 0,
-                    "target" : {
-                        "node" : 4,
-                        "path" : "rotation"
-                    }
-                }
-            ],
-            "name" : "CurveAction",
-            "samplers" : [
-                {
-                    "input" : 20,
-                    "interpolation" : "LINEAR",
-                    "output" : 21
-                }
-            ]
+            "name" : "Curve.004"
         }
     ],
     "materials" : [
@@ -479,24 +352,6 @@
             "componentType" : 5123,
             "count" : 1728,
             "type" : "SCALAR"
-        },
-        {
-            "bufferView" : 20,
-            "componentType" : 5126,
-            "count" : 121,
-            "max" : [
-                4
-            ],
-            "min" : [
-                0
-            ],
-            "type" : "SCALAR"
-        },
-        {
-            "bufferView" : 21,
-            "componentType" : 5126,
-            "count" : 121,
-            "type" : "VEC4"
         }
     ],
     "bufferViews" : [
@@ -599,21 +454,11 @@
             "buffer" : 0,
             "byteLength" : 3456,
             "byteOffset" : 197296
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 484,
-            "byteOffset" : 200752
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 1936,
-            "byteOffset" : 201236
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 203172,
+            "byteLength" : 200752,
             "uri" : "logo.bin"
         }
     ]
